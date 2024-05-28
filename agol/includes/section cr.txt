@@ -1,0 +1,177 @@
+  
+  
+Redux::setSection( $opt_name, array(
+    'title'            => __( 'Service Option', 'redux-framework-demo' ),
+    'id'               => 'service',
+    'desc'             => __( 'Edit your service area', 'redux-framework-demo' ),
+    'customizer_width' => '400px',
+    'icon'             => 'el el-adjust-alt'
+) );
+
+Redux::setSection( $opt_name, array(
+    'title'      => __( 'Service Area Edit Option', 'redux-framework-demo' ),
+    'id'         => 'service_area',
+    // 'icon'  => 'el el-home'
+    'desc'       => __( 'Edit your service area', 'redux-framework-demo' ) . '',
+    'subsection' => true,
+    'fields'     => array(
+        array(
+            'id'       => 'service_heading',
+            'type'     => 'text',
+            'title'    => __( 'Edit your service area', 'redux-framework-demo' ),
+            'subtitle' => __( 'Edit your service area  in this panel' ),
+            'default' => __( 'My service' ),
+        ),
+        array(
+            'id'       => 'service_dis',
+            'type'     => 'text',
+            'title'    => __( 'Edit your service Discripsion', 'redux-framework-demo' ),
+            'subtitle' => __( 'Edit your service Discripsion  in this panel' ),
+            'default' => __( 'Our services given below' ),
+        ),
+    
+        
+    ),
+    
+) );
+// Service Area Edit Option One
+Redux::setSection( $opt_name, array(
+    'title'      => __( 'Service Area Edit Option One', 'redux-framework-demo' ),
+    'id'         => 'service_area_one',
+    // 'icon'  => 'el el-home'
+    'desc'       => __( 'Edit your service area', 'redux-framework-demo' ) . '',
+    'subsection' => true,
+    'fields'     => array(
+        array(
+            'id'       => 'service_01_icon',
+            'type'     => 'text',
+            'title'    => __( 'Edit your service option one Icon  ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Edit your service option one icon in this panel. Serceh icon from https://fontawesome.com/' ),
+            'default' => __( 'fa-html5' ),
+
+        ),
+        array(
+            'id'       => 'service_01_name',
+            'type'     => 'text',
+            'title'    => __( 'Edit your service name   ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Edit your service name  in this panel.' ),
+            'default' => __( 'HTML' ),
+        ),
+        array(
+            'id'       => 'service_01_dic',
+            'type'     => 'text',
+            'title'    => __( 'Add  your service detalis   ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Add  your service detalis  in this panel.' ),
+            'default' => __( 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam corporis ratione eveniet nostrum explicabo quae vitae perferendis reprehenderit doloribus quod corrupti, aperiam autem voluptatum, debitis nisi. Id autem cupiditate error.' ),
+        ),
+        
+    
+        
+    ),
+    
+) );
+// Service Area Edit Option Two
+Redux::setSection( $opt_name, array(
+    'title'      => __( 'Service Area Edit Option Two', 'redux-framework-demo' ),
+    'id'         => 'service_area_two',
+    // 'icon'  => 'el el-home'
+    'desc'       => __( 'Edit your service area', 'redux-framework-demo' ) . '',
+    'subsection' => true,
+    'fields'     => array(
+        array(
+            'id'       => 'service_02_icon',
+            'type'     => 'text',
+            'title'    => __( 'Edit your service option one Icon  ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Edit your service option one icon in this panel. Serceh icon from https://fontawesome.com/' ),
+            'default' => __( 'fa-css3-alt' ),
+
+        ),
+        array(
+            'id'       => 'service_02_name',
+            'type'     => 'text',
+            'title'    => __( 'Edit your service name   ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Edit your service name  in this panel.' ),
+            'default' => __( 'CSS' ),
+        ),
+        array(
+            'id'       => 'service_02_dic',
+            'type'     => 'text',
+            'title'    => __( 'Add  your service detalis   ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Add  your service detalis  in this panel.' ),
+            'default' => __( 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam corporis ratione eveniet nostrum explicabo quae vitae perferendis reprehenderit doloribus quod corrupti, aperiam autem voluptatum, debitis nisi. Id autem cupiditate error.' ),
+        ),
+        
+    ),
+    
+) );
+// Service Area Edit Option three
+Redux::setSection( $opt_name, array(
+    'title'      => __( 'Service Area Edit Option Three', 'redux-framework-demo' ),
+    'id'         => 'service_area_three',
+    // 'icon'  => 'el el-home'
+    'desc'       => __( 'Edit your service area', 'redux-framework-demo' ) . '',
+    'subsection' => true,
+    'fields'     => array(
+        array(
+            'id'       => 'service_03_icon',
+            'type'     => 'text',
+            'title'    => __( 'Edit your service option one Icon  ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Edit your service option one icon in this panel. Serceh icon from https://fontawesome.com/' ),
+            'default' => __( 'fa-php' ),
+
+        ),
+        array(
+            'id'       => 'service_03_name',
+            'type'     => 'text',
+            'title'    => __( 'Edit your service name   ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Edit your service name  in this panel.' ),
+            'default' => __( 'PHP' ),
+        ),
+        array(
+            'id'       => 'service_03_dic',
+            'type'     => 'text',
+            'title'    => __( 'Add  your service detalis   ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Add  your service detalis  in this panel.' ),
+            'default' => __( 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam corporis ratione eveniet nostrum explicabo quae vitae perferendis reprehenderit doloribus quod corrupti, aperiam autem voluptatum, debitis nisi. Id autem cupiditate error.' ),
+        ),
+        
+    ),
+    
+) );
+// Service Area Edit Option four
+Redux::setSection( $opt_name, array(
+    'title'      => __( 'Service Area Edit Option Four', 'redux-framework-demo' ),
+    'id'         => 'service_area_four',
+    // 'icon'  => 'el el-home'
+    'desc'       => __( 'Edit your service area', 'redux-framework-demo' ) . '',
+    'subsection' => true,
+    'fields'     => array(
+        array(
+            'id'       => 'service_04_icon',
+            'type'     => 'text',
+            'title'    => __( 'Edit your service option one Icon  ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Edit your service option one icon in this panel. Serceh icon from https://fontawesome.com/' ),
+            'default' => __( 'fa-wordpress' ),
+
+        ),
+        array(
+            'id'       => 'service_04_name',
+            'type'     => 'text',
+            'title'    => __( 'Edit your service name   ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Edit your service name  in this panel.' ),
+            'default' => __( 'WORDPRESS' ),
+        ),
+        array(
+            'id'       => 'service_04_dic',
+            'type'     => 'text',
+            'title'    => __( 'Add  your service detalis   ', 'redux-framework-demo' ),
+            'subtitle' => __( 'Add  your service detalis  in this panel.' ),
+            'default' => __( 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam corporis ratione eveniet nostrum explicabo quae vitae perferendis reprehenderit doloribus quod corrupti, aperiam autem voluptatum, debitis nisi. Id autem cupiditate error.' ),
+        ),
+    
+        
+    ),
+    
+) );
+
+    

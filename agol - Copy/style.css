@@ -1,0 +1,95 @@
+/* 
+theme name:Agol Reduax
+theme URI:https://shovononline.com/agol
+author: Ezaz Ahamed
+author URI:https://shovononline.com
+Version: 1.0.1
+Description:Agol Theme is a WordPress Theme for any kind of portfolio Website.
+*/
+
+img.custom-logo {
+    margin-top: 10px;
+}
+.main-menu {
+    margin-top: 30px;
+}
+nav ul li {
+    list-style: none;
+    padding: 0px 14px;
+    margin: 0px;
+    display: inline;
+}
+ul li a{
+    font-size: 18px;
+}
+
+.main-menu ul ul {
+    display: none;
+}
+.main-menu ul li:hover > ul {
+    display: block;
+}
+.main-menu ul ul {
+    display: none;
+    position: absolute;
+    top: 1.5em;
+    left: 0;
+    z-index: 99999;
+    width: 180px;
+    background: #fff;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+}
+.main-menu li {
+    position: relative;
+    display: inline-block;
+}
+.text.banner_content{
+    width: 75%;
+    margin-left: 120px;
+}
+.main-footer .widgets-section {
+    position: relative;
+    padding: 80px 0px 60px;
+    color: #fff;
+}
+.main-footer .info-widget .page-list li a {
+    position: relative;
+    color: #ffffff;
+    opacity: 0.88;
+    display: inline-block;
+    width: 100%;
+    padding: 8px 0;
+}
+.main-footer .info-widget .page-list ul li{
+    padding: 0;
+}
+.news-block-two .inner-box .image img {
+    position: relative;
+    width: 100%;
+    display: block;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    height: 482px;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    background: red;
+    padding: 10px 16px;
+    border-radius: 6px;
+    color: #fff;
+}
+input.wpcf7-form-control.wpcf7-text {
+    border: 1px solid #FF595A;
+    padding: 5px;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
+    border: 1px solid #FF595A;
+    padding: 5px;
+    width: 590px;
+}
+h4 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}

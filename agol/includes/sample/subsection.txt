@@ -1,0 +1,26 @@
+   Redux::setSection( $opt_name, array(
+        'title'            => __( 'Basic Fields', 'redux-framework-demo' ),
+        'id'               => 'basic',
+        'desc'             => __( 'These are really basic fields!', 'redux-framework-demo' ),
+        'customizer_width' => '400px',
+        'icon'             => 'el el-home'
+    ) );
+
+Redux::setSection( $opt_name, array(
+        'title'      => __( 'Logo Edit Option', 'redux-framework-demo' ),
+        'id'         => 'logo',
+        //'icon'  => 'el el-home'
+        'desc'       => __( 'Add your logo in the panel below', 'redux-framework-demo' ) . '',
+        'subsection' => true,
+        'fields'     => array(
+            array(
+                'id'       => 'logo',
+                'type'     => 'media',
+                'title'    => __( 'Add Your Logo', 'redux-framework-demo' ),
+                'subtitle' => __( 'Add your new header logo' ),
+            ),
+        
+            
+        ),
+        
+    ) );
