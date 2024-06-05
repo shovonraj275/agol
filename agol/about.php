@@ -29,7 +29,7 @@ Template Name: About Template
 						<div class="title">About us</div>
 						<h3>Welcome to Agol Tires</h3>
 						<div class="text">
-							<p><?php echo $agol['about_us_description'];?></p>
+							<p><?php echo get_theme_mod('agol_about_us_set_con_description')?></p>
 						</div>
 						<ul>
 							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
@@ -37,12 +37,12 @@ Template Name: About Template
 						</ul>
 						<div class="clearfix">
 							<a href="#" class="learn">Learn More About Us <span class="fa fa-angle-right"></span></a>
-							<!-- <div class="signature"><img src="<?php echo $agol['about_us_author_signature']['url'];?>" alt="" /></div> -->
+							<div class="signature"><img src="<?php echo get_theme_mod('agol_about_us_set_con_signature'); ?>" alt="" /></div>
 							<div class="author-box">
 								<div class="box-inner">
-									<div class="author-image"><img src="<?php echo $agol['about_us_author_img']['url'];?>" alt="" /></div>
-									<h6><?php echo $agol['about_us_author_name'];?></h6>
-									<div class="designation"><?php echo $agol['about_us_author_designation'];?></div>
+									<div class="author-image"><img src="<?php echo get_theme_mod('agol_about_us_set_con_author_img'); ?>" alt="" /></div>
+									<h6><?php echo get_theme_mod('agol_about_us_set_con_author_name'); ?></h6>
+									<div class="designation"><?php echo get_theme_mod('agol_about_us_set_con_author_designation'); ?></div>
 								</div>
 							</div>
 						</div>
@@ -53,7 +53,7 @@ Template Name: About Template
 				<div class="image-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<div class="image">
-							<img src="<?php echo $agol['about_us_right_img']['url'];?>" alt="" />
+							<img src="<?php echo get_theme_mod('agol_about_us_set_con_right_side'); ?>" alt="" />
 						</div>
 					</div>
 				</div>

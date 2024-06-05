@@ -28,14 +28,14 @@ Template Name: Service Template
 				<div class="service-block col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="service-detail.html"><img src="<?php echo $agol['service_One_images']['url'];?>" alt="" /></a>
+							<a href="service-detail.html"><img src="<?php echo get_theme_mod('agol_service_set_con_one_images'); ?>" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="icon-box">
 								<span class="icon flaticon-speed"></span>
 							</div>
-							<h5><a href="service-detail.html"><?php echo $agol['service_One_heading'];?></a></h5>
-							<div class="text"><?php echo $agol['service_One_descriptions'];?></div>
+							<h5><a href="service-detail.html"><?php echo get_theme_mod('agol_service_set_con_one_heading'); ?></a></h5>
+							<div class="text"><?php echo get_theme_mod('agol_service_set_con_one_description'); ?></div>
 							<a href="service-detail.html" class="theme-btn btn-style-two"><span class="txt">Learn More <i class="fa fa-angle-right"></i></span></a>
 						</div>
 					</div>
@@ -45,14 +45,14 @@ Template Name: Service Template
 				<div class="service-block col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="service-detail.html"><img src="<?php echo $agol['service_Two_images']['url'];?>" alt="" /></a>
+							<a href="service-detail.html"><img src="<?php echo get_theme_mod('agol_service_set_con_two_images'); ?>" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="icon-box">
 								<span class="icon flaticon-speed"></span>
 							</div>
-							<h5><a href="service-detail.html"><?php echo $agol['service_Two_heading'];?></a></h5>
-							<div class="text"><?php echo $agol['service_Two_description'];?></div>
+							<h5><a href="service-detail.html"><?php echo get_theme_mod('agol_service_set_con_two_heading'); ?></a></h5>
+							<div class="text"><?php echo get_theme_mod('agol_service_set_con_two_description'); ?></div>
 							<a href="service-detail.html" class="theme-btn btn-style-two"><span class="txt">Learn More <i class="fa fa-angle-right"></i></span></a>
 						</div>
 					</div>
@@ -62,14 +62,14 @@ Template Name: Service Template
 				<div class="service-block col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="service-detail.html"><img src="<?php echo $agol['service_Three_images']['url'];?>" alt="" /></a>
+							<a href="service-detail.html"><img src="<?php echo get_theme_mod('agol_service_set_con_three_images'); ?>" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="icon-box">
 								<span class="icon flaticon-speed"></span>
 							</div>
-							<h5><a href="service-detail.html"><?php echo $agol['service_Three_heading'];?></a></h5>
-							<div class="text"><?php echo $agol['service_Three_description'];?></div>
+							<h5><a href="service-detail.html"><?php echo get_theme_mod('agol_service_set_con_three_heading'); ?></a></h5>
+							<div class="text"><?php echo get_theme_mod('agol_service_set_con_three_description'); ?></div>
 							<a href="service-detail.html" class="theme-btn btn-style-two"><span class="txt">Learn More <i class="fa fa-angle-right"></i></span></a>
 						</div>
 					</div>
@@ -80,14 +80,14 @@ Template Name: Service Template
 				<div class="service-block col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="service-detail.html"><img src="<?php echo $agol['service_Four_images']['url'];?>" alt="" /></a>
+							<a href="service-detail.html"><img src="<?php echo get_theme_mod('agol_service_set_con_four_images'); ?>" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="icon-box">
 								<span class="icon flaticon-speed"></span>
 							</div>
-							<h5><a href="service-detail.html"><?php echo $agol['service_Four_heading'];?></a></h5>
-							<div class="text"><?php echo $agol['service_Four_description'];?></div>
+							<h5><a href="service-detail.html"><?php echo get_theme_mod('agol_service_set_con_four_heading'); ?></a></h5>
+							<div class="text"><?php echo get_theme_mod('agol_service_set_con_four_description'); ?></div>
 							<a href="service-detail.html" class="theme-btn btn-style-two"><span class="txt">Learn More <i class="fa fa-angle-right"></i></span></a>
 						</div>
 					</div>
@@ -97,14 +97,14 @@ Template Name: Service Template
 				<div class="service-block col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="service-detail.html"><img src="<?php echo $agol['service_Five_images']['url'];?>" alt="" /></a>
+							<a href="service-detail.html"><img src="<?php echo get_theme_mod('agol_service_set_con_five_images'); ?>" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="icon-box">
 								<span class="icon flaticon-speed"></span>
 							</div>
-							<h5><a href="service-detail.html"><?php echo $agol['service_Five_heading'];?></a></h5>
-							<div class="text"><?php echo $agol['service_Five_description'];?></div>
+							<h5><a href="service-detail.html"><?php echo get_theme_mod('agol_service_set_con_five_heading'); ?></a></h5>
+							<div class="text"><?php echo get_theme_mod('agol_service_set_con_five_description'); ?></div>
 							<a href="service-detail.html" class="theme-btn btn-style-two"><span class="txt">Learn More <i class="fa fa-angle-right"></i></span></a>
 						</div>
 					</div>
@@ -114,14 +114,14 @@ Template Name: Service Template
 				<div class="service-block col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="service-detail.html"><img src="<?php echo $agol['service_Six_images']['url'];?>" alt="" /></a>
+							<a href="service-detail.html"><img src="<?php echo get_theme_mod('agol_service_set_con_six_images'); ?>" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="icon-box">
 								<span class="icon flaticon-speed"></span>
 							</div>
-							<h5><a href="service-detail.html"><?php echo $agol['service_Six_heading'];?></a></h5>
-							<div class="text"><?php echo $agol['service_Six_descriptionsss'];?></div>
+							<h5><a href="service-detail.html"><?php echo get_theme_mod('agol_service_set_con_six_heading'); ?></a></h5>
+							<div class="text"><?php echo get_theme_mod('agol_service_set_con_six_description'); ?></div>
 							<a href="service-detail.html" class="theme-btn btn-style-two"><span class="txt">Learn More <i class="fa fa-angle-right"></i></span></a>
 						</div>
 					</div>

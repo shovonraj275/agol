@@ -1,4 +1,3 @@
-<?php global $agol; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,9 +17,6 @@
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<style>
-
-</style>
 
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
@@ -44,7 +40,7 @@
                     <!--Top Left-->
                     <div class="top-left clearfix">
 						<ul class="list">
-							<li>Time : <?php echo $agol['start_time'];?>-<?php echo $agol['end_time'];?> | <?php echo $agol['working_hour'];?></li>
+							<li>Time : <?php echo get_theme_mod('agol_time_set_con_start')?>-<?php echo get_theme_mod('agol_time_set_con_end')?> | <?php echo get_theme_mod('agol_time_set_con_time')?></li>
 						</ul>
                     </div>
 
@@ -161,7 +157,7 @@
 						
 							<!-- Number Box -->
 							<div class="number-box">
-								<a class="phone" href="tel:<?php echo $agol['mobile_number'];?>"><?php echo $agol['mobile_number'];?><span class="icon fa fa-phone"></span></a>
+								<a class="phone" href="tel:<?php echo get_theme_mod('agol_time_set_con_phone')?>"><?php echo get_theme_mod('agol_time_set_con_phone')?><span class="icon fa fa-phone"></span></a>
 							</div>
 							
 							<!--Cart Box-->
@@ -244,11 +240,11 @@
 		<div class="banner-carousel owl-theme owl-carousel">
             <!-- Slide Item -->
             <div class="slide-item">
-            	<div class="image-layer" style="background-image:url(<?php echo $agol['slider_img_one']['url'];?>)"></div>
+            	<div class="image-layer" style="background-image:url(<?php echo get_theme_mod('agol_set_con_slider_one'); ?>)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h1><?php echo $agol['slider_heading_one'];?> <span><?php echo $agol['slider_sub_heading_one'];?></span></h1>
-						<div class="text banner_content"><?php echo $agol['slider_sub_description_one'];?> </div>
+                        <h1><?php echo get_theme_mod('agol_slider_set_con_heading_one');?> <span><?php echo get_theme_mod('agol_slider_set_con_heading_one_sub');?> </span></h1>
+						<div class="text banner_content"><?php echo get_theme_mod('agol_slider_set_con_heading_one_description');?> </div>
 						<!-- Subscribe Form -->
 						<div class="subscribe-form">
 							<form method="post" action="contact.html">
@@ -274,11 +270,11 @@
 
             <!-- Slide Item -->
             <div class="slide-item">
-            	<div class="image-layer" style="background-image:url(<?php echo $agol['slider_img_two']['url'];?>)"></div>
+            	<div class="image-layer" style="background-image:url(<?php echo get_theme_mod('agol_set_con_slider_two'); ?>"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h1><?php echo $agol['slider_heading_two'];?><span><?php echo $agol['slider_sub_heading_two'];?></span></h1>
-						<div class="text banner_content"><?php echo $agol['slider_sub_description_two'];?></div>
+                        <h1><?php echo get_theme_mod('agol_slider_set_con_heading_two'); ?><span><?php echo get_theme_mod('agol_slider_set_con_heading_two_sub'); ?></span></h1>
+						<div class="text banner_content"><?php echo get_theme_mod('agol_slider_set_con_heading_two_description'); ?></div>
 						<!-- Subscribe Form -->
 						<div class="subscribe-form">
 							<form method="post" action="contact.html">
@@ -296,11 +292,11 @@
 			
 			<!-- Slide Item -->
             <div class="slide-item">
-            	<div class="image-layer" style="background-image:url(<?php echo $agol['slider_img_three']['url'];?>)"></div>
+            	<div class="image-layer" style="background-image:url(<?php echo get_theme_mod('agol_set_con_slider_three'); ?>)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h1><?php echo $agol['slider_heading_three'];?><span><?php echo $agol['slider_sub_heading_three'];?></span></h1>
-						<div class="text banner_content"><?php echo $agol['slider_sub_description_three'];?></div>
+                        <h1><?php echo get_theme_mod('agol_slider_set_con_heading_three'); ?><span><?php echo get_theme_mod('agol_slider_set_con_heading_three_sub'); ?></span></h1>
+						<div class="text banner_content"><?php echo get_theme_mod('agol_slider_set_con_heading_three_description'); ?></div>
 						<!-- Subscribe Form -->
 						<div class="subscribe-form">
 							<form method="post" action="contact.html">
